@@ -1,0 +1,25 @@
+{
+  "name": "redisapp",
+  "version": "1.0.0",
+  "description": "this is redis app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "keywords": [
+    "redis",
+    "node"
+  ],
+  "author": "Edureka",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "axios": "^1.2.1",
+    "babel-polyfill": "^6.26.0",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
